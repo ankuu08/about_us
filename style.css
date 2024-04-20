@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+}
+.header{
+    height: 12%;
+    background-color: #ffc300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-variant:small-caps;
+    text-align: center;
+    color: #001d3d;
+}
+.img1{
+    height: 100px;
+    width: 200px;
+    background-image: url(AdobeStock_610035967_Preview.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.write{
+    height: 88%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    height: 60%;
+    width: 60%;
+    background-color: azure;
+    border-radius: 1rem;
+    border: 0.35rem solid #001d3d;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    color: #001d3d;
+    font-size: 1.5rem;
+}
